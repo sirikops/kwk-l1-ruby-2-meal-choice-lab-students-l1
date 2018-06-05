@@ -6,6 +6,11 @@ breakfast("pancakes")
 
 def lunch(lunch)
   puts "Lunch is the best time for #{lunch}!"
+end
+lunch("sandwiches")
+
+def dinner(dinner)
+  puts 
 
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them with a default to your favorite.
 
