@@ -2,17 +2,17 @@
 def breakfast(food = "eggs")
   puts "Morning is the right time for #{food}!" 
 end
-breakfast("pancakes")
+breakfast
 
 def lunch(lunch = "salad")
   puts "Lunch is the best time for #{lunch}!"
 end
-lunch("sandwiches")
+lunch
 
 def dinner(dinner = "cassarole")
   puts "Dinner is the best time for #{dinner}!"
 end
-dinner("pasta")
+dinner
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them with a default to your favorite.
 
 
